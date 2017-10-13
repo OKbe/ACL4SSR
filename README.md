@@ -22,14 +22,13 @@
 # 安卓 SS/SSR 去广告ACL规则
 * 屏蔽小米手机和魅族flyme rom系统广告
 * 国内网站均直接连接
-* 国外常用域名后缀均代理！！！
 * 屏蔽常用视频网站广告
 * 屏蔽常用网站广告、其他流媒体网站广告
 * 屏蔽部分应用程序开屏广告
 * 屏蔽部分运营商劫持网页弹出的漂浮球广告、流量统计
 * 拦截常用应用程序的隐私跟踪、行为分析、数据统计
 
-# ♻️ SS/SSR Download：
+# ♻️ SS/SSR ACL Files Download：
 * ACL更新地址（**白名单**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/banAD.acl
 * ACL更新地址（**黑名单**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-banAD.acl
 * ACL更新地址（**全局**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/onlybanAD.acl
@@ -39,13 +38,12 @@
 * SSR C# GFWList user.rule ：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-user.rule
 
 
+* SS：https://github.com/shadowsocks
 * SSR-WIN：https://github.com/shadowsocksr/shadowsocksr-csharp/releases
 * SSR-安卓：https://github.com/shadowsocksr/shadowsocksr-android/releases
 
 # ♻️ Surge/Shadowrocket Config File Download：
-* Surge Config File 更新地址：https://raw.githubusercontent.com/lhie1/Surge/master/Surge.conf
-						 或：https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
-* Shadowrocket Config File 更新地址：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket.conf
+* 请到相关项目页面根据说明配置 https://github.com/lhie1/Surge
 
 📋 教程 / 说明：
 * 打开SSR->路由->自定义acl文件->输入下载地址->更新
