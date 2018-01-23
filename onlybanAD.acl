@@ -1,6 +1,6 @@
 #**********************************************************************
-# 12.07
-# 2017年12月7日13:27:39
+# 01.19
+# 2018年1月19日09:07:56
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -14,9 +14,8 @@
 # 参数解释：
 # [proxy_all] 默认代理-本规则使用
 # [bypass_all] 默认直连
-# [outbound_block_list] 禁止访问列表 在26行
-# [bypass_list] 直连列表 在723多行
-# [proxy_list] 代理列表 在3371多行
+# [outbound_block_list] 禁止访问列表 在27行
+# [proxy_list] 代理列表 在1210多行
 # [remote_dns] 远程 DNS 解析 -不加使用本地 DNS
 #
 #**********************************************************************
@@ -112,7 +111,7 @@
 (^|\.)(brandshow|jing|track)\.58\.com$
 
 # Ali
-(^|\.)(adash|adsh|adashx4yt|adash-c|ai|re|rj|simaba)\.m\.taobao\.com$
+(^|\.)(adashx4yt|adash-c|ai|re|rj|simaba)\.m\.taobao\.com$
 (^|\.)(appdownload|afp|atanx|atanx2|gma|gtms\d\d)\.alicdn\.com$
 (^|\.)(fav|m|redirect|srd|tns)\.simba\.taobao\.com$
 (^|\.)(sdkinit|simaba|tyh)\.taobao\.com$
@@ -189,7 +188,6 @@
 (^|\.)tongji\.home\.soufun\.com$
 
 # Google
-(^|\.)2mdn\.net$
 (^|\.)admob\.com$
 (^|\.)ads\.gmodules\.com$
 (^|\.)ads\.google\.com$
@@ -209,14 +207,13 @@
 (^|\.)service\.urchin\.com$
 
 # JD
-(^|\.)(c-nfa|du|img-x|jrclick|jzt|policy)\.jd\.com$
+(^|\.)(c-nfa|img-x|jrclick|jzt|policy)\.jd\.com$
 (^|\.)ads\.union\.jd\.com$
-(^|\.)click\.jr\.jd\.com$
 (^|\.)cps\.360buy\.com$
 (^|\.)stat\.m\.jd\.com$
 
 # Kugou
-(^|\.)(d|downmobile|fanxing|gad|game|gg|install|install2|kgmobilestat|minidcsc|mo|mobilelog|mvads|p|rtmonitor|sdn|tj)\.kugou\.com$
+(^|\.)(adserviceretry|bssdlbig|d|downmobile|fanxing|gad|game|gg|install|install2|kgmobilestat|minidcsc|mo|mobilelog|mvads|p|rtmonitor|sdn|tj)\.kugou\.com$
 (^|\.)(msg|push|update)\.mobile\.kugou\.com$
 (^|\.)ads\.service\.kugou\.com$
 (^|\.)gcapi\.sy\.kugou\.com$
@@ -370,7 +367,17 @@
 (^|\.)upgrade\.xl9\.xunlei\.com$
 
 # Yahoo
-(^|\.)beap\.gemini\.yahoo\.com$
+(^|\.)(ads|adserver|adss|analytics|beap-bc|comet|geo|gemini|p3p|ybp)\.yahoo\.com$
+(^|\.)(analytics|locdrop|onepush)\.query\.yahoo\.com$
+(^|\.)(ard|ane|yads)\.yahoo\.co\.jp$
+(^|\.)(js-apac-ss|partnerads)\.ysm\.yahoo\.com$
+(^|\.)ad\.wretch\.cc$
+(^|\.)clicks\.beap\.bc\.yahoo\.com$
+(^|\.)doubleplay-conf-yql\.media\.yahoo\.com$
+(^|\.)flurry\.com$
+(^|\.)m\.yap\.yahoo\.com$
+(^|\.)uservoice\.com$
+(^|\.)ws\.progrss\.yahoo\.com$
 
 # Zhihu
 (^|\.)(sugar|zhihu-web-analytics|zhstatic)\.zhihu\.com$
@@ -704,6 +711,7 @@
 (^|\.)adwhirl\.com$
 (^|\.)adwo\.com$
 (^|\.)adxmi\.com$
+(^|\.)adyun\.com$
 (^|\.)adzerk\.net$
 (^|\.)agrantsem\.com$
 (^|\.)ajapk\.com$
@@ -1003,6 +1011,7 @@
 (^|\.)adnxs\.com$
 (^|\.)adriver\.ru$
 (^|\.)adroll\.com$
+(^|\.)adservice\.com$
 (^|\.)adsymptotic\.com$
 (^|\.)airpush\.com$
 (^|\.)am15\.net$
@@ -1033,6 +1042,7 @@
 (^|\.)inmobi\.com$
 (^|\.)jizzads\.com$
 (^|\.)juicyads\.com$
+(^|\.)leadbolt\.com$
 (^|\.)leadbolt\.net$
 (^|\.)leadboltads\.net$
 (^|\.)leadboltapps\.net$
@@ -1072,6 +1082,7 @@
 (^|\.)zedo\.com$
 
 # 垃圾网站
+(^|\.)11h5\.com$
 (^|\.)appget\.cn$
 (^|\.)appuu\.cn$
 (^|\.)coinhive\.com$
@@ -1349,6 +1360,8 @@
 (^|\.)trustasiassl\.com$
 (^|\.)tumblr\.co$
 (^|\.)tumblr\.com$
+(^|\.)twimg\.com$
+(^|\.)twimg\.org$
 (^|\.)txmblr\.com$
 (^|\.)vimeo\.com$
 (^|\.)vine\.co$
@@ -1376,6 +1389,9 @@
 (^|\.)line\.me$
 (^|\.)line\.naver\.jp$
 (^|\.)nhncorp\.jp$
+125.209.208.0/20
+125.209.220.0/22
+125.209.222.202/32
 
 # MytvSUPER & Netflix
 (^|\.)\w*nowtv100\w*\.\w*$
@@ -1408,6 +1424,11 @@
 52.0.0.0/8
 54.0.0.0/16
 
+# Onenote
+(^|\.)live\.net$
+(^|\.)live\.com$
+(^|\.)onenote\.com$
+
 # Whatsapp
 (^|\.)whatsapp\.com$
 (^|\.)whatsapp\.net$
@@ -1433,6 +1454,11 @@
 (^|\.)jtvnw\.net$
 (^|\.)akamaized\.net$
 
+#飞流直播
+(^|\.)neulion\.com$
+(^|\.)icntv\.xyz$
+(^|\.)flzbcdn\.xyz$
+
 # kakao Talk
 1.201.0.0/24
 103.246.56.0/22
@@ -1456,12 +1482,9 @@
 203.174.77.0/24
 
 # Telegram
-109.239.140.0/24
-149.154.160.0/22
-149.154.164.0/22
-149.154.168.0/22
-149.154.172.0/22
 91.108.0.0/16
+109.239.140.0/24
+149.154.160.0/20
 
 #ResiloSync
 173.244.217.42/32
@@ -1471,8 +1494,3 @@
 54.235.182.157/32
 (^|\.)config\.getsync\.com$
 (^|\.)config\.resilio\.com$
-
-#飞流直播
-(^|\.)neulion\.com$
-(^|\.)icntv\.xyz$
-(^|\.)flzbcdn\.xyz$
